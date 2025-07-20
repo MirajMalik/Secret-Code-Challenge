@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Code Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Enter the Secret Code</h2>
+    <input id="submit-field" type="text" placeholder="Type the code here" />
+    <button id="btn">Submit Code</button>
+
+    <p id="hidden-secret" class="message success" hidden>
+      🎉 You are such a genius. I appreciate You!
+    </p>
+
+    <p id="hidden-message" class="message error" hidden>
+      😠 You <b id="code">Idiot</b>, type the right code to see the secret.
+    </p>
+
+    <script src="script.js"></script>
+  </div>
+    
+</body>
+</html>
